@@ -1,0 +1,395 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+img{
+    height: 100px;
+    
+}
+
+header {
+    background-color: #0dd406;
+    color: #fff;
+    padding: 1em 0;
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1em;
+    padding-right: 50px;
+padding-top: 50px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 50px;
+    padding-left: 20px;
+    padding-top: 50%;
+    
+}
+nav ul li a:hover {
+
+  color:orangered; /* Text color on hover */
+  border-radius: 5px;
+}
+/* main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+    text-align: center;
+    
+} */
+.woop{
+  height: 100vh;
+}
+.mock {
+  background-image: url(https://images.pexels.com/photos/669283/pexels-photo-669283.jpeg?auto=compress&cs=tinysrgb&w=600);
+  width: 100%;
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+  color: #fff;
+}
+.mock h1 {
+  text-align: center;
+  margin-top: 50px;
+  width: 600px;
+  margin-left: 26%;
+  color: darkblue;
+
+}
+.mock p {
+  font-size: 25px;
+  width: 1000px;
+  text-align: center;
+  margin-left: 19%;
+  margin-top: 60px;
+}
+.woop {
+  height: 100vh;
+  padding: 40px;
+  background-color: #ffffff;
+}
+.noon h1{
+  text-align: center;
+  color: crimson;
+  text-decoration: wavy;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.card {
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+  overflow: hidden;
+  flex: 1 1 30%;
+  max-width: 600px;
+  margin: 10px;
+  width: 100%;
+}
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.card-img-top {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+}
+.card-body {
+  padding: 15px;
+}
+.card-title {
+  font-size: 1.25em;
+  margin-bottom: 10px;
+  
+}
+.card-text {
+  font-size: 1em;
+  color: #666;
+}
+.section {
+  padding: 40px;
+  background-color: #ffffff;
+}
+.section h2{
+  color:coral;
+  text-align: center;
+}
+.section p{
+  text-align: center;
+}
+.section .card {
+  margin-bottom: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: #0dd406;
+}
+.section .card img {
+  height: 200px;
+  object-fit: cover;
+}
+.footer {
+  background-color: #343a40;
+  color: #ffffff;
+  padding: 20px 0;
+}
+.footer p {
+  margin: 0;
+  font-size: 1rem;
+  color: white;
+  padding: 10px 0;
+}
+.footer .social-icons a {
+  color: rgb(211, 4, 4);
+  margin: 0 10px;
+  font-size: 1.5rem;
+  transition: color 0.3s;
+}
+.footer .social-icons a:hover {
+  color: #06f054;
+}
+h2 {
+  color: #0056b3;
+  font-size: 1.75rem;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* about us */
+.divar{
+  background-image: url(https://www.sadc.int/sites/default/files/2022-06/Peace-and-Secuirity.jpg);
+  width: 100%;
+  background-size: cover;
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+  color: #fff;
+}
+.divar h1 {
+  text-align: center;
+  margin-top: 50px;
+  width: 600px;
+  margin-left: 26%;
+  color:blue;
+}
+.divar p {
+  font-size: 25px;
+  width: 1000px;
+  text-align: center;
+  margin-left: 19%;
+  margin-top: 50px;
+}
+.card {
+  /* margin: 20px; */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+.card-title {
+  font-size: 1.5rem;
+  color: #333;
+  text-align: center;
+}
+.card-text {
+  font-size: 1rem;
+  color: black;
+}
+.crisis-card {
+  border: 2px solid #ff0000; 
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.8);
+  transition: transform 0.3s ease-in-out;
+  width: 300px;
+  height: 400px; 
+  overflow: hidden; 
+  position: relative;
+}
+.crisis-card .card-img {
+  width: 100%;
+  height: auto;
+  max-height: 100%;
+  object-fit: cover;
+}
+.crisis-card .card-title {
+  color: #110391ea;
+  margin-bottom: 10px;
+}
+.crisis-card .card-text {
+  color: #ffffff; 
+}
+.crisis-card .card-text small {
+  color: #cccccc;
+}
+.card-img-top {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+/* about.us */
+main {
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+h1 {
+  text-align: center;
+  color: #333333;
+  font-family: 'Arial', sans-serif;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  align-self: center;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+
+
+/* Footer styling */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer .social-icons {
+  margin: 20px 0;
+}
+
+footer .social-icons a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 24px;
+  transition: color 0.3s;
+}
+
+footer .social-icons a:hover {
+  color: #007bff;
+}
+
+/* Adjust spacing for footer text */
+footer p {
+  margin: 10px 0 0;
+}
+
+
+/* index.css */
+/* Keyframes for h elements */
+@keyframes slide-in {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* Keyframes for p elements */
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Apply animations */
+h1, h2, h3, h4, h5, h6 {
+    animation: slide-in 1s ease-out;
+}
+
+p {
+    animation: fade-in 2s ease-in;
+}
+
+
+h1, h2, h3, h4, h5, h6, p {
+  animation: slide-in 1s ease-out, fade-in 2s ease-in, scale-in 1.5s ease-in-out;
+}
+
+
+
+ 
+
+
+
+
+  
+
+
+

@@ -1,0 +1,90 @@
+{
+  "Security-Team": [
+    {
+      "id": "1",
+      "name": "Nathif Jamaa",
+      "description": "Governor - Garissa",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsuQ0aWocfxj8Jrq2t7YS5R1iwQvTsLWaT2A&s",
+      "phone": "0712345678"
+    },
+    {
+      "id": "2",
+      "name": "Farah Maalim",
+      "description": "Member of Parliament - Dadaab",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjJwigcLzL4U3y6so6onmfkyLYeTJib83CyQ&s",
+      "phone": "0724357642"
+    },
+    {
+      "id": "3",
+      "name": "Mohamed Abdi",
+      "description": "Member of County Assembly - Dadaab",
+      "image_url": "https://cdn.standardmedia.co.ke/images/wysiwyg/images/oAgJKBBrSAgItuWwd8uVsNcz9BqypQXOXaBG786L.jpg",
+      "phone": "0721337382"
+    },
+    {
+      "id": "4",
+      "name": "Japeth Koome",
+      "description": "Inspector General of Police",
+      "image_url": "https://www.nationalpolice.go.ke/images/IG_NPS.jpg",
+      "phone": "0723457622"
+    },
+    {
+      "id": "5",
+      "name": "Abdirashid Yakub",
+      "description": "Superintendent of Police",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs2I-gOdtWWpk1i31Es9XBvmGF7QD-w4Lx5w&s",
+      "phone": "0723457623"
+    },
+    {
+      "id": "6",
+      "name": "Osman Aden",
+      "description": "Area Chief",
+      "image_url": "https://lh3.googleusercontent.com/GrTsbLxS_I-JcqpJcT_PjGA_teQZ9Gau3pBwdCzcm4jRk8dhvautjVr3BiO9LPhd-l-V4fjLm9WSxmCwaMUDtyQglwhFxA=s750",
+      "phone": "0720457612"
+    },
+    {
+      "id": "7",
+      "name": "Moulid Hassan",
+      "description": "Kenya Police Reserve",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeagNl_F1fZO6Q9mmGRBlVxG1fMoo3ZbFMcA&s",
+      "phone": "0711402612"
+    },
+    {
+      "id": "8",
+      "name": "Hassan Kamil",
+      "description": "Security",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLXhF8G5MSpxLQKvIP1A_8bmj9JBGQVDSLCA&s",
+      "phone": "0712410610"
+    },
+    {
+      "id": "9",
+      "name": "Dekow Maalim",
+      "description": "Society Head",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ9897bjdxSr9_fYl7cBeub4QUGFLdD35ZYw&s",
+      "phone": "0715202610"
+    },
+    {
+      "id": "10",
+      "name": "Muktar Hussein",
+      "description": "Youth Chairman",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjAqf1WrzGwEjKRTpbKso6rbDxCxGMPiybTw&s",
+      "phone": "07014302614"
+    },
+    {
+      "id": "c08b",
+      "name": "Hussein Ahmed",
+      "description": "web developer",
+      "phone": "0712298902",
+      "message": "hello my politicians",
+      "image_url": "http://127.0.0.1:5501/old.jpg"
+    },
+    {
+      "id": "5b1b",
+      "name": "sh.Hassan Moge",
+      "description": "Religious Leader",
+      "phone": "0723452312",
+      "message": "we need to sort out those who are misusing the  commands our religion.",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVuUHpfg1ph-1eGz9PNWHhFspHC2XKRW15NQ&s"
+    }
+  ]
+}
