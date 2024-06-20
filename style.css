@@ -48,9 +48,12 @@ nav ul li a {
 }
 nav ul li a:hover {
 
-  color:orangered; /* Text color on hover */
+  color:orangered; 
   border-radius: 5px;
 }
+
+
+
 /* main {
     max-width: 1200px;
     margin: 20px auto;
@@ -70,6 +73,8 @@ nav ul li a:hover {
   background-position: center;
   overflow: hidden;
   color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  animation: shadowMovement 10s infinite alternate;
 }
 .mock h1 {
   text-align: center;
@@ -90,11 +95,15 @@ nav ul li a:hover {
   height: 100vh;
   padding: 40px;
   background-color: #ffffff;
+  
 }
 .noon h1{
   text-align: center;
-  color: crimson;
+  color:blue;
   text-decoration: wavy;
+}
+.soon{
+  color: #31e00e;
 }
 .cards {
   display: flex;
@@ -131,23 +140,25 @@ nav ul li a:hover {
   border-bottom: 1px solid #ddd;
 }
 .card-body {
-  padding: 15px;
+  padding: 10px;
 }
-.card-title {
+.soon .card-title {
   font-size: 1.25em;
   margin-bottom: 10px;
+  color: #31e00e;
+
   
 }
 .card-text {
   font-size: 1em;
-  color: #666;
+  color:#31e00e;
 }
 .section {
-  padding: 40px;
-  background-color: #ffffff;
+  padding: 30px;
+  background-color:beige;
 }
 .section h2{
-  color:coral;
+  color:blue;
   text-align: center;
 }
 .section p{
@@ -217,14 +228,22 @@ h2 {
   margin-left: 19%;
   margin-top: 50px;
 }
+.min h5{
+color: #31e00e;
+}
+
 .card {
   /* margin: 20px; */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
+  color: #31e00e;
+}
+.loop, h2{
+  color: blue;
 }
 .card-title {
   font-size: 1.5rem;
-  color: #333;
+  color: #31e00e;
   text-align: center;
 }
 .card-text {
@@ -276,11 +295,13 @@ h1 {
   text-align: center;
   color: #333333;
   font-family: 'Arial', sans-serif;
+  
 }
 
 form {
   display: flex;
   flex-direction: column;
+
 }
 
 label {
@@ -381,10 +402,72 @@ p {
 h1, h2, h3, h4, h5, h6, p {
   animation: slide-in 1s ease-out, fade-in 2s ease-in, scale-in 1.5s ease-in-out;
 }
+.dam {
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 20px;
+  color:blue;
+} 
+
+.maj {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+  max-width: 600px;
+  margin-right: 8%;
+}
+.maj img {
+  display: block;
+  margin: 0 auto 20px;
+  width: 100%;
+  border-radius: 10px;
+  height: 400px;
+}
+.maj p {
+  font-weight: bold;
+  margin: 10px 0;
+  text-align: justify;
+}
+hr {
+  width: 100%;
+  height: 2px;
+  background: #333;
+  border: none;
+  margin: 20px 0;
+}
+.kok {
+  background: white;
+  padding: 20px;
+  /* border-radius: 10px; */
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+  margin-bottom: 20px;
+  max-width: 600px;
+}
+.kok img {
+  display: block;
+  margin: 0 auto 20px;
+  width: 100%;
+  border-radius: 10px;
+  height: 400px;
+}
+.kok p {
+  font-weight: bold;
+  margin: 10px 0;
+  text-align: justify;
+}
+.container {
+  display: flex;
+  /* justify-content: space-between; */
+  padding-bottom: 50px;
+  width: 100vh;
+
+}
+.gas{
+  color: blue;
+}
 
 
-
- 
 
 
 
